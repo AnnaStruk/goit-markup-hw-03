@@ -17,22 +17,30 @@
   <body>
     <!--Site header-->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container main-nav">
+        <nav class="main-nav header">
           <a href="./index.html" class="logo"
             ><span class="logo-web">Web</span> Studio</a
           >
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Studio</a></li>
-            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-            <li><a href="" class="link">Contacts</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
 
         <!--Contacts-->
         <ul class="contacts list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -47,30 +55,30 @@
       <!--Features-->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Our advantages</h2>
+          <h2 class="section-title non-visible">Our advantages</h2>
           <ul class="features-list list">
-            <li>
+            <li class="features-description">
               <h3 class="features-item">Attention to details</h3>
               <p>
                 Ideological considerations, as well as the beginning of everyday
                 work on position formation.
               </p>
             </li>
-            <li>
+            <li class="features-description">
               <h3 class="features-item">Punctuality</h3>
               <p>
                 The task of the organization, especially the scope and place of
                 training entails.
               </p>
             </li>
-            <li>
+            <li class="features-description">
               <h3 class="features-item">Planning</h3>
               <p>
                 Likewise, consultation with a broad asset is largely a
                 condition.
               </p>
             </li>
-            <li>
+            <li class="features-description">
               <h3 class="features-item">Modern technologies</h3>
               <p>
                 The significance of these problems is so obvious that the
@@ -86,7 +94,7 @@
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="works list">
-            <li>
+            <li class="works-item">
               <img
                 src="./images/box-1.jpg"
                 width="370"
@@ -95,7 +103,7 @@
               />
               <h3 class="title">Desktop applications</h3>
             </li>
-            <li>
+            <li class="works-item">
               <img
                 src="./images/box-2.jpg"
                 width="370"
@@ -104,7 +112,7 @@
               />
               <h3 class="title">Mobile applications</h3>
             </li>
-            <li>
+            <li class="works-item">
               <img
                 src="./images/box-3.jpg"
                 width="370"
@@ -122,7 +130,7 @@
         <div class="container">
           <h2 class="section-title">Our team</h2>
           <ul class="team list">
-            <li>
+            <li class="item">
               <img
                 src="./images/team-1.jpg"
                 width="270"
@@ -131,7 +139,7 @@
               />
               <h3 class="title">Nikolay Kucherenko</h3>
               <p class="profession">Product Designer</p>
-              <ul class="list">
+              <ul class="social-links list">
                 <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
                 <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
                 <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -139,7 +147,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/team-2.jpg"
                 width="270"
@@ -148,7 +156,7 @@
               />
               <h3 class="title">Olga Ivanova</h3>
               <p class="profession">Frontend Developer</p>
-              <ul class="list">
+              <ul class="social-links list">
                 <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
                 <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
                 <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -156,7 +164,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/team-3.jpg"
                 width="270"
@@ -165,7 +173,7 @@
               />
               <h3 class="title">Andrey Shevchenko</h3>
               <p class="profession">Marketing</p>
-              <ul class="list">
+              <ul class="social-links list">
                 <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
                 <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
                 <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -173,7 +181,7 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/team-4.jpg"
                 width="270"
@@ -182,7 +190,7 @@
               />
               <h3 class="title">Ivan Nikolaev</h3>
               <p class="profession">UI Designer</p>
-              <ul class="list">
+              <ul class="social-links list">
                 <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
                 <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
                 <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -197,22 +205,22 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Regular customers</h2>
-          <ul class="list">
-            <li>Client 1</li>
-            <li>Client 2</li>
-            <li>Client 3</li>
-            <li>Client 4</li>
-            <li>Client 5</li>
-            <li>Client 6</li>
+          <ul class="clients list">
+            <li class="client-item">Client 1</li>
+            <li class="client-item">Client 2</li>
+            <li class="client-item">Client 3</li>
+            <li class="client-item">Client 4</li>
+            <li class="client-item">Client 5</li>
+            <li class="client-item">Client 6</li>
           </ul>
         </div>
       </section>
     </main>
 
     <!--Footer-->
-    <footer>
-      <div class="container">
-        <div>
+    <footer class="page-footer">
+      <div class="container footer-auth">
+        <div class="content">
           <a href="./index.html" class="logo"
             ><span class="logo-web">Web</span
             ><span class="logo-studio"> Studio</span>
@@ -235,17 +243,25 @@
           </address>
         </div>
 
-        <div>
+        <div class="content">
           <b class="auth">Join us</b>
           <ul class="list">
-            <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
-            <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
-            <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
-            <li><a href="#" aria-label="LinkedIn Link">LinkedIn</a></li>
+            <li class="links">
+              <a href="#" aria-label="Instagram Link">Instagram</a>
+            </li>
+            <li class="links">
+              <a href="#" aria-label="Twitter Link">Twitter</a>
+            </li>
+            <li class="links">
+              <a href="#" aria-label="Facebook Link">Facebook</a>
+            </li>
+            <li class="links">
+              <a href="#" aria-label="LinkedIn Link">LinkedIn</a>
+            </li>
           </ul>
         </div>
 
-        <div>
+        <div class="content">
           <b class="auth">Sign up for the newsletter</b>
           <input type="text" />
           <button type="submit" class="submit-button">Subscribe</button>
