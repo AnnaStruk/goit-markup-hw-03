@@ -332,25 +332,27 @@ img {
 .auth {
   display: block;
   color: var(--white-color);
-  margin-top: 72px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .footer-auth {
-  display: flexbox;
-  flex-wrap: wrap;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
   justify-content: center;
 }
 
 .content {
-  display: flexbox;
+  margin-top: 0;
 }
 
-.content .submit-button {
-  display: block;
-  margin-top: 108px;
-  margin-bottom: 94px;
+.content.submit-button {
+  display: inline-block;
+  margin-left: 12px;
   padding-top: 10px;
   padding-right: 62px;
   padding-bottom: 10px;
