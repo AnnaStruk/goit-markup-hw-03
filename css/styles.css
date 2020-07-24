@@ -316,7 +316,7 @@ img {
 }
 
 .address-contacts {
-  display: inline-block;
+  display: block;
   color: var(--accent-secondary-color);
   font-style: normal;
   text-decoration: none;
@@ -329,15 +329,21 @@ img {
 }
 
 .auth {
-  display: inline-block;
+  display: block;
   color: var(--white-color);
   margin-top: 72px;
   margin-bottom: 0;
 }
 
-.footer-auth > .content {
+.footer-auth {
   display: flexbox;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flexbox;
 }
 
 .content .submit-button {
