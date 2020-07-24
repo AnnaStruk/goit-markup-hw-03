@@ -43,7 +43,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 /* Main-nav*/
@@ -76,10 +75,6 @@ img {
   margin-left: 85px;
 }
 
-.site-nav .item {
-  outline: 1px solid red;
-}
-
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -110,7 +105,6 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: 1px solid red;
 }
 
 .contacts .item + .item {
@@ -218,8 +212,12 @@ img {
   margin-bottom: 0px;
 }
 
-.features-description:not(:last-child) {
+.features-block:not(:last-child) {
   margin-right: 30px;
+}
+
+.features-description {
+  width: 270px;
 }
 
 /* Works */
@@ -237,8 +235,6 @@ img {
 
 .works-item {
   width: calc((100% - 30px * 2) / 3);
-  outline: 1px solid red;
-  background-color: skyblue;
   margin-bottom: 0;
 }
 
@@ -261,11 +257,13 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+.team-bg {
+  background-color: var(--secondary-bg-color);
+}
 
 .team .item {
   width: calc((100% - 30px * 3) / 4);
   align-items: center;
-  outline: 1px solid red;
 }
 
 .team .item:not(:last-child) {
@@ -374,7 +372,6 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
-  outline: 1px solid red;
 }
 
 .button:hover,
@@ -392,8 +389,6 @@ img {
 
 .portfolio-card {
   width: calc((100% - 30px * 2) / 3);
-  outline: 1px solid red;
-  background-color: skyblue;
 }
 
 .portfolio-card:not(:nth-child(3n)) {
@@ -429,7 +424,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: 1px solid red;
 }
 
 .works-filter .item:not(:last-child) {
