@@ -436,11 +436,13 @@ img {
 
 .portfolio-card {
   width: calc((100% - 30px * 2) / 3);
+}
+
+.portfolio-box {
   border: 1px solid #eeeeee;
   background-color: #ffffff;
   box-sizing: border-box;
 }
-
 .portfolio-card:not(:nth-child(3n)) {
   margin-right: 30px;
 }
