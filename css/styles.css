@@ -390,7 +390,7 @@ img {
 .button {
   display: block;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   color: var(--title-text-color);
   padding: 6px 22px;
   border-radius: 4px;
@@ -420,6 +420,7 @@ img {
   width: calc((100% - 30px * 2) / 3);
   border: 1px solid #eeeeee;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 .portfolio-card:not(:nth-child(3n)) {
@@ -455,6 +456,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .works-filter .item:not(:last-child) {
