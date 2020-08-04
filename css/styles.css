@@ -38,12 +38,10 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .container {
-  width: 1230px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -282,6 +280,10 @@ img {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .profession {
