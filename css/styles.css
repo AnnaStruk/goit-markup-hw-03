@@ -309,6 +309,7 @@ img {
 .clients {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .client-item:not(:last-child) {
@@ -417,6 +418,8 @@ img {
 
 .portfolio-card {
   width: calc((100% - 30px * 2) / 3);
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
 }
 
 .portfolio-card:not(:nth-child(3n)) {
