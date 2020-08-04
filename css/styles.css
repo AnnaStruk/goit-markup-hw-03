@@ -341,10 +341,17 @@ img {
   color: var(--white-color);
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .address p {
   color: var(--white-color);
   font-style: normal;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
 .address-contacts {
