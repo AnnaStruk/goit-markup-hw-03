@@ -30,6 +30,7 @@ body {
 
 .list {
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: 0;
   padding: 0;
   list-style: none;
@@ -322,12 +323,17 @@ img {
   margin-right: 30px;
 }
 
+.client-item {
+  margin-bottom: 0;
+}
+
 .company-icon {
   display: inline-block;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  margin-bottom: 0;
 }
 
 /* Footer*/
@@ -419,6 +425,7 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
+  border: transparent;
 }
 
 .button:hover,
