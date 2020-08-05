@@ -188,6 +188,7 @@ img {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  border: transparent;
 }
 
 .hero-button {
@@ -393,21 +394,21 @@ img {
 
 .content {
   margin-top: 0;
-  width: calc((100 - 30px * 2) / 3);
 }
 
-.content.submit-button {
-  display: inline-block;
+/*.content.submit-button {
+    display: block;
   margin-left: 12px;
   padding-top: 10px;
   padding-right: 62px;
   padding-bottom: 10px;
   padding-left: 29px;
 }
+*/
 
 /* Portfolio Button */
 .button {
-  display: block;
+  display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
   color: var(--title-text-color);
