@@ -384,7 +384,7 @@ img {
 
 .footer-auth {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .footer-links {
@@ -394,6 +394,14 @@ img {
 
 .content {
   margin-top: 0;
+}
+
+.footer-info {
+  margin-right: 69px;
+}
+
+.footer-join {
+  margin-right: 94px;
 }
 
 /*.content.submit-button {
