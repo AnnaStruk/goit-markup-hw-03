@@ -49,6 +49,7 @@ html {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .container {
@@ -170,7 +171,17 @@ img {
 
 /* Hero */
 .hero {
-  background-color: var(--footer-bg-color);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -189,16 +200,17 @@ img {
 .submit-button {
   display: inline-block;
   min-width: 200px;
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  border-radius: 4px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
   border: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button {
@@ -299,6 +311,8 @@ img {
 .team .item {
   border: 1px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
