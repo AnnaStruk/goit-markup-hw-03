@@ -385,11 +385,13 @@ img {
   color: var(--white-color);
   margin-top: 0;
   margin-bottom: 20px;
+  margin-left: 0;
 }
 
 .footer-contacts {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-right: 0px;
 }
 
 .footer-auth {
@@ -400,6 +402,7 @@ img {
 .footer-links {
   display: flex;
   justify-content: start;
+  margin-left: 0;
 }
 
 .content {
